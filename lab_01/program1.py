@@ -19,3 +19,6 @@ def lastFirst(firstName, lastName):
 
 print(lastFirst('Shanjida', 'Kamal'))
 print(lastFirst('csci', '127'))
+print(lastFirst('World', 'Hello'))
+
+
