@@ -9,4 +9,10 @@ git pull
 git add Readme.md 
 git command -a -m "quiz" 
 git push 
-csci127-assignments
+
+
+To move p1.py into github I followed the git commands:
+git pull to make sure that everything is up to dat 
+git add p1.py
+git command -a -m "p1 file"
+git push
