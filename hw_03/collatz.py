@@ -9,4 +9,5 @@ def collatz(n):
         print(n)
     
     return count
-        
+
+print ("count for 5: ", collatz(5))
