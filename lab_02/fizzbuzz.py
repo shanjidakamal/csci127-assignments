@@ -20,3 +20,4 @@ def fizzbuzz(max_value):
         i=i+1
         
     return count
+print(fizzbuzz(100))

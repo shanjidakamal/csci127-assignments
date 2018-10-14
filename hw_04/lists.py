@@ -63,3 +63,4 @@ def palindrome(l):
     else:
         return False
 print(palindrome(build_random_list(10,50)))
+
