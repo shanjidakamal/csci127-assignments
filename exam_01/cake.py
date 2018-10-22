@@ -1,8 +1,9 @@
 
 def division_cake(A,B,u):
-    while u == 1:
-        people = B // 2
-        return people
+   unit = A/B
+   people_invited = u / unit
+   return people_invited
 
-print(division_cake(5,10,1))
-print(division_cake(20,40,1))
+print(int(division_cake(5,10,1)))
+print(int(division_cake(20,40,1)))
+print(int(division_cake(60,6,10)))
