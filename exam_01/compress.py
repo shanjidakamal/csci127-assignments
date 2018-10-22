@@ -3,7 +3,7 @@ def compress_word(w):
     first_letter = word[:1]
     rest_word = word[1:]
     if word in "aeiou".find(word):
-       print(first_letter + rest_word)
+       print(first_letter + remove.('aeiou') + rest_word)
     else:
         print(first_letter + rest_word)
             
