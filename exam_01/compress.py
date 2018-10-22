@@ -1,11 +1,14 @@
 def compress_word(w):
-    word = w
-    first_letter = word[:1]
-    rest_word = word[1:]
-    if word in "aeiou".find(word):
-       print(first_letter + remove.('aeiou') + rest_word)
+   i=1
+    vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O','U']
+    new_word = []
+    new_word.append(w[0].lower())
+    while
+        if letter in vowels:
+            new_word.append(letter)
     else:
-        print(first_letter + rest_word)
+        print(w)
+        
             
 print(compress_word('apple'))
 
