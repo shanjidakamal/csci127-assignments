@@ -16,6 +16,6 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
         orange_loc = (b - item)
         if orange_loc in range(s, t + 1):
             s_oranges= s_oranges + 1           
-    return str(s_apples) + "\n" + str(s_oranges)
+    return str(s_apples) + "\n" + str(s_oranges) #\n starts a new line, seperating number of oranges and apples
 
 print(countApplesAndOranges(s, t, a, b, apples, oranges))
