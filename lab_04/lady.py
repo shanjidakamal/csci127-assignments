@@ -17,17 +17,15 @@ def check_happiness(s,t):
     else:
         return "NO"
 #sorting the values and characters [length/color]  
-def sorting(t):
-    characters= []
-    values = []
+def dict(t):
+    d={}
     for item in t:
         if item != '_':
-            if item not in characters:
-                characters +=[item]
-                values +=[1]
+            if item not in d:
+                d[item]=1
             else:
-                 values[characters.index(item)] = values[characters.index(item)] + 1
-    return values
+                 d[item] += 1
+    return d
 #determining happiness
 def happybug(s,t):
     if s < 3:
@@ -40,7 +38,7 @@ def happybug(s,t):
         else:
             return False
     else:
-        values = sorting(t)
+        values = dict(t).values()
         if min(values) < 2:
             return False
     return True
