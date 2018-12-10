@@ -14,15 +14,16 @@ double quadsolve(double a, double b, double c){
   double integer = (-b + root);
   double amount = integer/(2*a);
 
+  double result;
   if (x >=0){
-    std::cout << "+Root:" << amount<<'\n';
+    result= amount;
   }
   else
-  }
-    std::cout << "-Root:" << 0 <<'\n';
   {
-    return 0;
+    result =0;
   }
+    return amount;
+}
 
 int main()
 {
