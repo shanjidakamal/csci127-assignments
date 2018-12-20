@@ -7,6 +7,7 @@ def addLine(d,line):
             d[item[0]].append(item)
     return d
 d = {"c": ["cat", "cookies"],"m": ["milk"],"s": ["scared"], "d":["dog"]} #define the d dictionary so addline function knows how to create the dictionary
+addLine(d, "Santa parked his sleigh on the roof")
 addLine(d, "Santa went down the chimney")
 addLine(d, "He ate some cookies and milk")
 addLine(d, "He also scared the cat and the dog as he put the presents down")
