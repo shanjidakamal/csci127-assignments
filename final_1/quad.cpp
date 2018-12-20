@@ -13,7 +13,6 @@ double quadsolve(double a, double b, double c){
   double root = sqrt(x);
   double integer = (-b + root);
   double amount = integer/(2*a);
-
   double result;
   if (x >=0){
     result= amount;
